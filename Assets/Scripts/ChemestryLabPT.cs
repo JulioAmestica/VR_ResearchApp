@@ -30,7 +30,8 @@ public class NewBehaviourScript : MonoBehaviour
         BrownBottle.SetActive(true);
         robotInstructions.text="Grab the brown bottle with bromie with the controller  and pour the bromine into the beaker";
 
-        StartCoroutine(StartTimer());
+        //
+        //StartCoroutine(StartTimer());
     }
 
     IEnumerator StartTimer()
